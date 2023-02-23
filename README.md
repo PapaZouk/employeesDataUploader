@@ -30,7 +30,7 @@ To install the server-side app:
   
 # Running H2 Server-side with Java Database
 To run H2 server-side with a Java database:
-1. Open the H2 console by navigating to <b>http://localhost:8080</b> in your browser.
+1. Open the H2 console by navigating to <b>http://localhost:8080/h2-console</b> in your browser.
 2. In the JDBC URL field, enter: <code>jdbc:h2:mem:testdb</code> to connect the H2 database. Use default user name: <code>sa</code> and <b>NO PASSWORD</b> as a default (this is just for testing purpose).
 3. Click the Connect button to connect to the database.
 4. You can then view the content of database using SQL commands.
