@@ -34,6 +34,10 @@ To run H2 server-side with a Java database:
 2. In the JDBC URL field, enter: <code>jdbc:h2:mem:testdb</code> to connect the H2 database. Use default user name: <code>sa</code> and <b>NO PASSWORD</b> as a default (this is just for testing purpose).
 3. Click the Connect button to connect to the database.
 4. You can then view the content of database using SQL commands.
+
+## CSV file format
+To upload correctly data to the server-side app, the CSV file should have the following format in with the <b>exact order<b>:
+<br><br><code>name,surname,email,gender,deparment</code>
   
 ## Usage
 To use the application:
