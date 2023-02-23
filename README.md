@@ -38,6 +38,8 @@ To run H2 server-side with a Java database:
 ## CSV file format
 To upload correctly data to the server-side app, the CSV file should have the following format in with the <b>exact order<b>:
 <br><br><code>name,surname,email,gender,deparment</code>
+<br>
+You can use <b>MOCK_DATA.csv</b> example file from the <b>datauploader/src/main/resources/</b> for testing purpose.
   
 ## Usage
 To use the application:
