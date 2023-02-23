@@ -20,7 +20,7 @@ To install the client-side app:
 ## Server-side
 To install the server-side app:
 
-1. Clone the data uploader server-side app from ./datauploader directory and run
+1. Clone the data uploader server-side app from ./datauploader directory.
 2. Navigate to the 'fileUploaderApp' directory
 3. Run the command:
   <br><code>mvn clean package</code> to build the project and create the jar file.
