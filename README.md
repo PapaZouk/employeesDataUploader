@@ -9,23 +9,22 @@ To install the application, you will need to clone this repository and install t
 ## Client-side
 To install the client-side app:
 
-1. Navigate to the 'fileUploaderApp' directory.
-2. Run in the system console 'npm install' to install necessary dependencies:
+1. Clone file uploader web application from ./fileUploaderApp to your local storage.
+2. Navigate to the 'fileUploaderApp' directory.
+3. Run in the system console 'npm install' to install necessary dependencies:
   <br><code>npm install bootstrap</code>
   <code>npm install Dropzone</code>
-3. Once the dependecies are installed, you can run the app locally by running the command:
+4. Once the dependecies are installed, you can run the app locally by running the command:
   <br><code>npm start</code>
-
-1. Download file uploader web application from ./fileUploaderApp to your local 
-2.. Download the data uploader server-side app from ./datauploader directory and run
 
 ## Server-side
 To install the server-side app:
 
-1. Navigate to the 'fileUploaderApp' directory
-2. Run the command:
+1. Download the data uploader server-side app from ./datauploader directory and run
+2. Navigate to the 'fileUploaderApp' directory
+3. Run the command:
   <br><code>mvn clean package</code> to build the project and create the jar file.
-3. Once the build is complete, you can run the app locally by runnin the command:
+4. Once the build is complete, you can run the app locally by runnin the command:
   <br><code>java jar target/datauploader-0.0.1-SNAPSHOT.jar</code>
   
 # Running H2 Server-side with Java Database
