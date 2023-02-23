@@ -1,7 +1,7 @@
 Employee Data Upload App
 ---------------------------
 
-Welcome to Employees Data File Uploader! This application consists of two parts: a client-side app written in React and server-side app written in Java. The client-side app allows users to upload files to the server, while the server-side app stores the files on the server.
+Welcome to Employees Data File Uploader! This application consists of two parts: a client-side app written in React and server-side app written in Java. The client-side app allows users to upload CSV files to the server, while the server-side app stores the files on the server.
 
 ## Installation
 To install the application, you will need to clone this repository and install the nesessary dependecies for both the client-side and server-side apps;
@@ -38,7 +38,7 @@ To run H2 server-side with a Java database:
 ## Usage
 To use the application:
 1. Open your browser and navigate to: <b>http://localhost:3000/</b> to acces the client-side app.
-2. You can then select a file to upload and submit the form to upload the file to the server by draggin file to the dropzone field or simply by clicking the field and selecting file from you local storage.
+2. You can then select a CSV file to upload and submit the form to upload the file to the server by draggin file to the dropzone field or simply by clicking the field and selecting file from you local storage.
 3. You can then check from the H2 DataBase console the result of the uploaded records.
 
 # FUTURE FEATURES
