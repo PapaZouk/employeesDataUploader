@@ -53,4 +53,4 @@ The additional display of H2 Database table records will be added soon to the cl
 ## ADDITIONAL INFORMATIONS:
 This application was made using:
 - Java OpenJDK 19 and language level 19.
-- React version used for this project: 18.2.0
+- React version: 18.2.0
