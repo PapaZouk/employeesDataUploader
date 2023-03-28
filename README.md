@@ -1,4 +1,4 @@
-Employee Data Upload App
+Employee Data Uploader App
 ---------------------------
 
 Welcome to Employees Data File Uploader! This application consists of two parts: a client-side app written in React and server-side app written in Java. The client-side app allows users to upload CSV files to the server, while the server-side app stores the files on the server.
